@@ -84,7 +84,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[React](https://reactjs.org/)**
 -   **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
 -   **[React Icons](https://react-icons.github.io/react-icons/)**
--   **[Framer Motion](https://www.framer.com/motion/)
+-   **[Framer Motion](https://www.framer.com/motion/)**
 
 > Veja o arquivo  [package.json](https://github.com/karinacristo/fitblub/blob/main/package.json)
 
