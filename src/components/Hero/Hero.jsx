@@ -6,6 +6,7 @@ import hero_image_back from '../../assets/hero_image_back.png';
 import Heart from '../../assets/heart.png';
 import Calories from '../../assets/calories.png';
 import { motion } from "framer-motion";
+import NumberCounter from 'number-counter';
 
 
 export const Hero = () => {
@@ -14,7 +15,7 @@ export const Hero = () => {
     const mobile = window.innerWidth <= 768 ? true : false
 
     return (
-        <div className='hero'>
+        <div className='hero' id='home'>
             <div className='blur hero-blur'></div>
             <div className='left-h'>
                 <Header />
@@ -47,15 +48,21 @@ export const Hero = () => {
                 {/* figuras */}
                 <div className='figures'>
                     <div>
-                        <span>+140</span>
+                        <span>
+                            <NumberCounter end={140} start={100} delay='4' preFix='+' />
+                        </span>
                         <span>treinadores especialistas</span>
                     </div>
                     <div>
-                        <span>+978</span>
+                        <span>
+                            <NumberCounter end={978} start={865} delay='4' preFix='+' />
+                        </span>
                         <span>alunos se juntaram</span>
                     </div>
                     <div>
-                        <span>+50</span>
+                        <span>
+                            <NumberCounter end={50} start={25} delay='4' preFix='+' />
+                        </span>
                         <span>programas fitness</span>
                     </div>
                 </div>
